@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Calendar from './Calendar'
+import Album from './Album'
+import ComplexGrid from './ComplexGrid'
+
+import RepositoryPatternUI from './RepositoryPatternUI'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // return <Calendar />
+    // return <Album />
+    // return <ComplexGrid />
+    return <RepositoryPatternUI />
 }
+
 
 export default App;
